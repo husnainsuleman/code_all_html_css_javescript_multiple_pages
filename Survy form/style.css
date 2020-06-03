@@ -1,0 +1,122 @@
+body{
+
+background-color:#a9d7d1;	
+}
+
+
+#title{
+display: block;	
+text-align: center;
+font-family:'Raleway', Helvetica, sans-serif;
+	
+}
+
+ #Survey-box{
+	 max-width:80%;
+	 margin:auto;
+	 height:auto;
+	 background-color:White;
+	 border-radius:5PX;
+ }
+ 
+#dist{
+	 padding-top: 30px;
+	 text-align:center;
+	 font-family:Raleway, Helvetica, sans-serif;	
+ }
+  
+.form{
+  width: 50%;
+  margin: auto;
+}
+
+ #form-box{
+ display: block;	 
+ width:60%;
+ background-color:;
+ margin:auto; 
+ border-radius: 4px;
+ padding: 40px 0px 50px 0px;	 
+ text-align:center; 
+}
+ 
+ 
+ 
+ 
+ .tabs{
+	 padding: 6px;
+   text-align: right;
+ }
+ 
+ 
+ #label-name{
+	 font-size:15px;
+	 font-family:Raleway, Helvetica, sans-serif;
+   padding: 10px; 
+  }
+ 
+ 
+ #filled{
+	 border: solid 1px gray;
+	 border-radius:5px;
+	 width:40%;
+	 height:25px;	
+ }
+ 
+ 
+ #select-item{
+	 display: inline-block;
+	 margin-right:28%;
+	 border-radius: 5px;
+}
+
+
+#check{
+	display: inline-block;
+	text-align: left;
+	display: inline-block;
+	margin : -21px 50px 0px 0px ;
+	font-size: 15px;
+	
+}
+
+
+.checkbox{
+	margin-bottom: 10px;
+	font-family: Raleway, Helvetica, sans-seri;
+	
+}
+
+#option{
+	display: inline-block;
+	margin-top:30px ;
+	margin-right:20% ;
+	font-family:Raleway, Helvetica, sans-seri ;
+	font-size: 15px;
+	
+}
+
+
+#most-like{
+		display: inline-block;
+	  padding-top: ;
+}
+
+
+.radio{
+	display: inline-block;
+  margin-top: 30px;
+	margin-right: 40px;
+}
+
+
+.textarea{
+	display: flex;
+	margin: 20px 0px 0px 200px;
+  font-family: ;
+}
+
+button{
+		margin:50px 10px 0px 0px;
+    	
+}

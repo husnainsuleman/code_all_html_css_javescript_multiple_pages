@@ -1,0 +1,189 @@
+
+
+body{
+	background-color: #f9f9f9;
+	font-family: 'Open Sans',Arial,sans-serif;
+	line-height: 1.5;
+
+}
+
+ .nav-bar{
+	 position: fixed;
+	 top: 0px;
+	 left:0px;
+	 min-width: 290px;
+	 width: 300px;
+	 border-right: 2px solid;
+	 height: 100%;
+	 border-color: grey;
+  
+ }
+
+@media (max-width:600px){
+	.nav-bar{
+	 position: absolute;	 
+	 font-size: 15px;
+	 background-color: lightgray;
+	 width: 100%;
+	 height:330px ;
+	 border-right: 2px solid;
+	 border-color: grey;
+    
+ }
+	
+}
+#header{
+	  text-align: center;
+
+ }
+
+@media(max-width:600px){
+	#header{
+	  font-size: 15px;
+		margin-top: 10px;
+		margin-left: 40px;
+		display: inline-block;
+		
+ 
+	}
+
+}
+
+
+ #list{
+	 overflow-x: auto;
+	 overflow-y: hidden;
+	 list-style: none;
+	 line-height: 42px; 
+	 border-top:1px solid;
+	 
+	 
+ }
+
+@media(max-width:600px){
+	
+ #list{
+	 list-style: none;
+	 line-height: 25px;
+	 
+	 
+	
+	 
+	 
+ }
+
+	
+}
+
+ .nav-link{
+  text-decoration: none;
+  color: black;
+	 
+}
+
+ 
+#main{
+	 
+	min-width: 200px;
+	width: auto;
+	margin-left: 26%;
+  font-family:Open Sans,Arial,sans-serif;
+	
+}
+
+@media(max-width:600px){
+	#main{
+	position: absolute;
+	top: 330px;
+	left: -40px;	
+	max-width: 80%;
+	font-family:Open Sans,Arial,sans-serif;
+}
+}
+header{
+  font-size:20px;
+	margin-top: 30px;
+  color: forestgreen;
+}
+@media(max-width:600px){
+header{
+  font-size:18px;
+	margin-top: 20px;
+  color: forestgreen;
+}
+}
+
+p{
+	margin-left:40px ;
+	font-size: 15px;
+  color: #604f4f;
+}
+
+@media(max-width:600px){
+	p{
+	margin-left: 0px;	
+	font-size: 14px;
+  color: #604f4f;
+}
+
+
+}
+
+
+.text-list{
+  margin-left: 40px;
+	font-size: 15px;
+    color: #625858;
+}
+
+@media(max-width:600px){
+.text-list{
+  margin-left: 0px;
+	font-size: 14px;
+   color: #625858;
+}	
+	
+	
+}
+
+
+img{
+	max-width: 100%;
+	width: 500px;
+	height: auto;
+	display: inline-block;
+	margin-left: auto%;
+	margin-top: 5%;
+}
+
+
+@media(max-width:600px){
+	
+	img{
+	max-width: 100%;
+	display: inline-block;
+	margin-left: 0%;
+	margin-top: 5%;
+}
+}
+
+fieldset{
+	max-width: 100%;
+	width:500px;
+	text-align: center;
+	margin-left:20% ;
+	
+}
+
+
+@media(max-width:600px){
+	
+	fieldset{
+	font-size: 10px;	
+	max-width: 100%;
+	width: 90%;	
+	text-align: center;
+	margin-left:0% ;
+	
+}
+}

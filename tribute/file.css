@@ -1,0 +1,145 @@
+ body{
+	 
+	 
+ }
+ 
+
+ #main{
+	 font-size: 25px;
+	 width: 100%;
+   margin: auto; 
+   background-color:#eee;
+ 
+}
+
+@media screen and (max-width:600px){
+ #main{
+	 font-size: 10px;
+	 width: 100%;
+   margin: auto; 
+   background-color:#eee;
+}
+}
+
+
+#title-div{
+	text-align:center;
+	color: gray; 
+  
+	}
+ 
+ #title{
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: 100; 
+	color: gray; 
+  
+}
+ 
+@media (max-width:600px){
+ #title{
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	font-size: 15px;
+	color: ; 
+	}
+}
+
+ #img-div{
+	background-color:white;
+	border-radius: 5px; 
+  width:95% ; 
+	margin: auto; 
+	 
+ }
+ 
+ #image{
+	display:block;
+	padding-top:30px  ; 
+	max-width:100%;
+	height:auto;
+	margin:auto;	 
+ }
+ 
+ #img-caption{
+  font-size:15px;
+  text-align:center;
+  margin-top: 10px; 
+  color:#4a4141; 
+}
+
+@media (max-width:600px;){
+ #img-caption{
+  font-size:5px;
+  text-align:center;
+  margin-top: ; 
+  color:#4a4141; 
+}
+}
+
+#headline{
+	margin-top:50px;
+	margin-left: 25px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 23px;
+	
+}
+
+@media (max-width:600px){
+#headline{
+	margin-top:50px;
+	margin-left: 25px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 15px;
+}	
+}
+
+
+#tribute-info{
+	font-family:Helvetica, sans-serif  ;
+	font-size: 17px;
+	width: 70%;
+	margin: 0 auto;
+	word-spacing:5px ;
+	color: #4a4141; 
+  
+	}
+
+@media (max-width:600px){
+#tribute-info{
+	font-family:Helvetica, sans-serif  ;
+	font-size: 15px;
+	width: 90%;
+	margin: 0 auto;
+	color: #4a4141; 
+	 }
+	}  
+
+
+
+p{
+	font-size: 19px;
+	font-family:initial; 
+    display: block;
+	text-align: center;
+
+}
+
+
+#tribute-link{
+	font-size:20px;
+	display: block;
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;;
+	color:#333;
+	
+}
+
+@media (max-width:600px){
+#tribute-link{
+	font-size:10px;
+	display: block;
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;;
+	color:#333;
+}
+}
